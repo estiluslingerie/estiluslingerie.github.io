@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135955045-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-135955045-1');
+		</script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>Estilu's Lingerie</title>
+		<link rel="shortcut icon" href="img/inicial/logo-icon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="css/principal.css">
+		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<script type="text/javascript" src="js/scripts.js"></script>
+	</head>
+	<body onLoad="rodarImagens()">
+		<header>
+			<input type="checkbox" id="icone">
+				<div class="toggle">
+					<label for="icone" class="icone-burger">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+				    </label>
+				</div>
+			<nav id="menu" role="complementary">
+				<div id="topo">
+					<a href="index.html"><img src="img/inicial/estilus.png" id="logo"></a>
+						<div id="busca">
+							<img src="img//inicial/search.png" alt="Buscar"/>
+		                    <input type="text" id="txtBusca" placeholder="O que você procura?"/>
+						    <button id="btnBusca">Buscar</button><br>
+						</div>
+							
+					<ul id="social">
+					    <li><a href="#"><i class="far fa-user"><span> Login</span></i></a></li>
+					    <li id="bag"><a href="#"><i class="fas fa-shopping-bag"><span> R$ 0,00</span></i></a></li>
+					</ul>
+				</div>
+						
+				<div id="logoprincipal">
+					<a href="index.html"><img src="img/inicial/estilus.png"></a>
+				</div>
+						
+				<div id="opcoes">
+					<ul id="option">
+						<li><a href="conjuntos.html">Conjuntos</a></li>
+						<li><a href="calcinhas.html">Calcinhas</a></li>
+						<li><a href="cuecas.html">Cuecas</a></li>
+						<li><a href="infantil.html">Infantil</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>	
+
+		<section id="banner">
+			<div id="banner_img">
+				<a href="promodebute.html"><img id="painel" src="img/inicial/outono-inverno.jpg"></a>
+			</div>
+		</section>
+
+		<section class="contaneir">
+			<div id="conteudo">
+				<h2 id="titulo">Nossos Destaques</h2>
+				<ul class="destaques_lista">
+					<li class="item">
+						<figure id="image">
+							<a href= "conjuntos.html"><img id="muda" src="img/conjuntos/m/conjstrappym1-frente.jpg" alt="Conjunto Strappy Rendado Base Manta">
+							<figcaption>
+	                            <h2>Conjuntos</h2></a>
+			                </figcaption>	
+						</figure>
+					</li>
+
+					<li class="item">
+					<figure id="image">
+						<a href= "calcinhas.html"><img id="muda1" src="img/calcinhas/bombom-frente.jpg" alt="Calcinha Mariana Rendada">
+						<figcaption>
+                             <h2>Calcinhas</h2></a>
+		                </figcaption>
+					</figure>
+					</li>
+				</ul>
+
+				<ul id="destaques_lista_row">
+					<li class="item">
+						<figure id="image">
+							<a href= "cuecas.html"><img id="muda2" src="img/cuecas/boxer.jpg" alt="Cueca Boxer com Cos Kolly">
+							<figcaption>
+	                             <h2>Cuecas</h2></a>
+			                </figcaption>
+						</figure>
+					</li>
+
+					<li class="item">
+						<figure id="image">
+							<a href= "infantil.html"><img id="muda3" src="img/infantil/kitcuecas.jpg" alt="Kit 3 Cuecas Slip Infantil Malha c/ Cos">
+							<figcaption>
+	                             <h2>Infantil</h2></a>
+			                </figcaption>
+						</figure>
+					</li>
+				</ul>
+			</div>
+		</section>
+		
+		<section id="cadastro">
+			<h3>CADASTRE SEU E-MAIL!</h3>
+			<h3>FIQUE SEMPRE POR DENTRO DAS NOVIDADES E PROMOÇÕES.</h3>
+			<div id="dados">
+			    <div class="envio">
+			    	<form action="https://formspree.io/elizandroriboli@gmail.com" class="formulario" method="POST" tabindex="1">
+			        <input type="text" class="input" maxlength="50" name="Nome" placeholder="Nome"  required>
+			        <input type="text" class="input" maxlength="70" name="Email" placeholder="Email"  required>
+			    </div>
+			    <input type="submit" class="enviar" value="Enviar">
+			</div>
+			</form>
+		</section>
+
+		
+		<footer>
+				<p>Copyright © 2019 Elingerie. Todos os direitos reservados</p>
+		</footer>
+	</body>
+</html>
