@@ -1,0 +1,325 @@
+/* Navegador */
+body {
+	overflow-x: hidden;
+  background: url(../img/inicial/fundocab.png) repeat;
+  background-color: #FFE8FF;
+}
+
+#topo{
+  display: none;
+}
+
+#icone{
+  display: none;
+}
+
+#topo, #opcoes{
+	width: 101.5%;
+	height: 60px;
+	background-color:#969DFE;
+	margin: -10px;
+}
+
+#opcoes{
+	height: 45px;
+}
+
+#logo{
+	width: 92px;
+	height: 39px;
+	padding-left: 3%;
+	padding-top: 0.9%; 
+}
+
+#busca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  position: absolute;
+  width:530px;
+  height:32px;
+  right: 29%;
+  top: 1.5%;
+}
+ 
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:8px; 
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:211px;
+}
+ 
+#btnBusca{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:7px;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+ 
+#busca img{
+  float:left;
+  padding: 5px;
+  opacity: 0.6;
+}
+
+#social{
+	display: inline-flex;
+	position: absolute;
+	right: 6.5%;
+	list-style:none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#social i{
+	position: relative;
+	top: 1%;
+	color: #222;
+	font-weight: bold;
+}
+
+#social i:hover{
+	color: #fff;
+}
+
+#bag{
+	position: relative;
+	left: 23%;
+}
+
+#menu, #cadastro{
+	background: url(../img/inicial/fundocab.png) repeat;
+  background-color: #FFD2FF;
+  margin: -10px;
+}
+
+#logoprincipal{
+	height: 220px;
+}
+
+#logoprincipal img{
+	position: absolute;
+	width: 430px; /*com o topo é 400px*/
+	height: 145px;/*com o topo é 125px*/
+	right: 34%;/*com o topo é 36%*/
+	top: 5%; /*com o topo é 15%*/
+}
+
+#option{
+	position: relative;
+	left: 23%;
+	bottom: 12%;
+	display: inline-flex;
+	list-style:none;
+}
+
+ #option li { 
+ 	padding: 0 30px;
+	font-size: 21px;
+	text-transform: uppercase;
+ }
+
+ #option a{
+ 	text-decoration: none;
+ 	color: #222;
+ 	font-weight: bold;
+ }
+
+ #option a:hover {  
+  color:#fff; 
+ }
+
+/* Fim_Navegador */
+/* Corpo */
+
+#banner #banner_img {
+  width: 105%;
+  height: 450px;
+  margin: -10px;
+}
+
+#banner_img{
+  padding-top: 0.75%;
+  padding-bottom: 6%;
+}
+
+#banner_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.contaneir {
+  margin: 20px 0 0 0;
+  width: 77%;
+  height: 100%;
+}
+
+#conteudo {
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 650px;
+}
+
+#titulo{
+  position: absolute;
+  left: 50%;
+  bottom: 98%;
+  padding-top: 5px;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #ACAC9D;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px #000;
+}
+
+.destaques_lista, #destaques_lista_row{
+  padding-top: 4%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style:none;
+}
+
+#destaques_lista_row{
+  margin-top: 15px;
+}
+
+#destaques_lista_row img {
+  border-radius: 5px;
+  width: 350px;
+  height: 400px;
+}
+
+.contaneir .item #image {
+  position:relative;
+  z-index:0;
+}
+
+.item img{
+  border-radius: 7px;
+	width: 350px;
+	height: 400px;
+  margin-right: 10px;
+}
+
+.item figure figcaption{
+  position: absolute;
+  bottom: 7%;
+  left: -7%;
+  background-color: rgb(0,0,0,.6);
+  width: 112%;
+  height: 10%;
+  color: white;
+  border-radius: 3px;
+}
+
+.item figure figcaption h2{
+  font-size: 40px;
+  font-family: impact;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ figcaption a{
+  text-decoration: none;
+}
+
+#cadastro{
+  width: 105%;
+  margin: -10px;
+  margin-top: 20px;
+  height: 200px;
+}
+
+h3{
+  position: relative;
+  left: 3%;
+  top:30%;
+  font-size: 20px;
+}
+
+#dados{
+  float: right;
+  position: relative;
+  right: 8%;
+  top:2%;
+}
+
+.input, .enviar{
+  width: 250px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 8px;
+  text-indent: 20px;
+  font-size: 22px;
+}
+
+.enviar{
+  position: relative;
+  left: 78%;
+  width: 140px;
+  height: 40px;
+  text-indent: 0;
+  background-color: #7373FF;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+#promo{
+  width: 80%;
+  margin-left: 10%;
+}
+
+#promo img{
+  margin-top: 3.5%;
+  margin-left: 20%;
+  margin-bottom: 4.5%;
+}
+
+
+#promo h1{
+  margin-left: 25%;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-top: 3.5%;
+  color: #2626FF;
+}
+
+#letras{
+  font-size: 22px;
+  text-align: justify;
+  text-indent: 50px;
+  line-height: 30px;
+}
+
+#obs{
+  margin-top: 5%;
+  font-size: 10px;
+  text-align: justify;
+  line-height: 15px;
+}
+
+#obs a{
+  color: #000;
+}
+
+/* Fim_Corpo */
+
+/* Rodapé */
+p{
+  text-align: center;
+  visibility: hidden;
+}
+/* Fim_Rodapé */

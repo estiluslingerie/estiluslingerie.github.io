@@ -1,0 +1,208 @@
+@media (max-width: 767px){
+  #logoprincipal{
+    height: 130px;
+  }
+
+  #logoprincipal img{
+    width: 41%; 
+    height: 17%;
+    right: 29%;
+    top: 2%;
+  }
+
+  #opcoes{
+    width: 105%;
+    height: 34px;
+  }
+
+  #option{
+    left: 1%;
+    bottom: 12%;
+  }
+
+  #option li { 
+    padding: 0 5px 0 2px;
+    font-size: 12px;
+   }
+  /* Fim_Navegador */
+  /* Corpo Página Principal*/
+
+  #banner #banner_img {
+    height: 250px;
+    width: 112%;
+    margin-left:-10%;
+    margin-right: -10px;
+  }
+
+  #banner_img{
+    padding-top: 3%;
+    padding-left:0%;
+  }
+
+  #conteudo {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -16%;
+  }
+
+  #titulo{
+    left: 15%;
+    bottom: 96%;
+    font-size: 20px;
+  }
+
+  .destaques_lista{
+    padding-top: 4%;
+    display: block;
+  }
+
+  #destaques_lista_row{
+    padding-top: 0;
+    display: block;
+  }
+
+  #destaques_lista_row img {
+    width: 240px;
+    height: 200px;
+  }
+
+  .item img{
+    width: 240px;
+    height: 200px;
+    padding-top: 2%;
+  }
+
+  .item figure figcaption{
+    left: -2.5%;
+    width: 47%;
+    height: 13%;
+  }
+
+  .item figure figcaption h2{
+    font-size: 24px;
+  }
+
+  #cadastro{
+    width: 106%;
+    margin: -10px;
+    margin-top: 20px;
+    height: 250px;
+  }
+
+  h3{
+    position: relative;
+    left: 1%;
+    top:8%;
+    text-align: center;
+    font-size: 14px;
+    padding: 1%;
+  }
+
+  #dados{
+    float: right;
+    position: relative;
+    left: 15%;
+    top:10%;
+  }
+
+  .input, .enviar{
+    width: 70%;
+    height: 30px;
+    margin-right: 0;
+    margin-top: 4px;
+    border-radius: 4px;
+    text-indent: 15px;
+    font-size: 16px;
+  }
+
+  .enviar{
+    position: relative;
+    left: 43%;
+    width: 100px;
+    height: 40px;
+    margin-top: 2px;
+    font-size: 18px;
+    padding-right: 17px;
+  }
+
+  #promo{
+    width: 90%;
+    margin-left: 4%;
+  }
+
+  #promo img{
+    width: 200px;
+    height: 200px;
+    margin-left: 9%;
+  }
+
+
+  #promo h1{
+    margin-left: 7%;
+    font-size: 19px;
+    margin-top: 6.5%;
+  }
+
+  #letras{
+    font-size: 15px;
+  }
+
+  #obs{
+    font-size: 9px;
+  }
+  /* Fim_Corpo Página Principal*/
+  /* Itens */
+
+  #painel {
+    margin-left: 1% ;
+  }
+
+  #banner-categoria{
+    width: 110%;
+    height: 50px;
+    margin-left: 8%;
+  }
+
+  #categoria{
+    margin-top: 8%;
+    margin-right: 8%;
+    font-size: 14px;
+  }
+
+  .produtos{
+    padding-left: 9%;
+    display: block;
+  }
+
+  .produtos_item img{
+    width: 240px;
+    height: 200px;
+  }
+
+  .produtos-info{
+    width: 240px;
+    height: 100px;
+  }
+
+  .produtos-info .nome, .preco, .botao-comprar{
+    margin-left: 1%;
+    top: -16%;
+    font-size: 14px;
+  }
+
+  .produtos-info .preco{
+    top: -39%;
+    font-size: 18px;
+  }
+
+   .botao-comprar{
+    width: 115px;
+    top: -61%;
+    margin-left: 25%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Fim_Itens */
+
+}
