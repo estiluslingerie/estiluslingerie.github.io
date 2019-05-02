@@ -67,8 +67,9 @@ var nrImagem4 = 0;
 var imagens4 = [];
 var refrescar4 = 4; 
 
-imagens4[0] = "img/inicial/outono-inverno.jpg";
-imagens4[1] = "img/inicial/promodebute.jpg";
+imagens4[0] = "img/inicial/dia-das-maes.png";
+imagens4[1] = "img/inicial/outono-inverno.jpg";
+imagens4[2] = "img/inicial/promodebute.jpg";
 
 rodarImagens4 = function () {
    document.images["painel"].src = imagens4[nrImagem4];
